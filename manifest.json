@@ -62,7 +62,7 @@
                   "value": "Here’s a bit really really for the rainbow. It’s a round and round and round and round and round. <br><br><em>[Action: she makes gestures with her finger]</em>"
                 },
                 {
-                  "id": "temp-audio/1.mp3",
+                  "id": "chiiilds-play/temp-audio/1.mp3",
                   "type": "Sound",
                   "format": "audio/mp3",
                   "duration": 9
@@ -81,7 +81,7 @@
                   "value": "<em>Imperceptible toddler babble.</em> <br><br> She gestures with her hand to explain what it is."
                 },
                 {
-                  "id": "temp-audio/2.mp3",
+                  "id": "chiiilds-play/temp-audio/2.mp3",
                   "type": "Sound",
                   "format": "audio/mp3",
                   "duration": 10
@@ -100,7 +100,7 @@
                   "value": "This bit's a one, two, three, four, five. <br><br><em>[Action: she makes gestures with her finger]</em>"
                 },
                 {
-                  "id": "temp-audio/3.mp3",
+                  "id": "chiiilds-play/temp-audio/3.mp3",
                   "type": "Sound",
                   "format": "audio/mp3",
                   "duration": 7
@@ -119,7 +119,7 @@
                   "value": "This is goes like this, like this, like this, like this, like this, like this. That’s a rainbow. That’s at nursery with everybody."
                 },
                 {
-                  "id": "temp-audio/4.mp3",
+                  "id": "chiiilds-play/temp-audio/4.mp3",
                   "type": "Sound",
                   "format": "audio/mp3",
                   "duration": 34
