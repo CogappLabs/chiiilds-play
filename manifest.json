@@ -1,0 +1,135 @@
+{
+  "@context": ["http://iiif.io/api/presentation/3/context.json"],
+  "id": "https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/manifest/d4485c40143c11efb7a569eb01932406/manifest.json",
+  "type": "Manifest",
+  "label": { "en": ["Chiiild's Play"] },
+  "metadata": [
+    { "label": { "en": ["author"] }, "value": { "en": ["Yaya"] } },
+    { "label": { "en": ["provider"] }, "value": { "en": ["cogapp"] } }
+  ],
+  "summary": { "en": ["It’s a rainbow 🌈"] },
+  "behavior": ["paged"],
+  "viewingDirection": "left-to-right",
+  "rights": " ",
+  "items": [
+    {
+      "id": "https://storiiies-images.cogapp.com/iiif/2/1715943626875yayaartwork.ptif/canvas/c0",
+      "type": "Canvas",
+      "label": { "en": ["Chiiild's Play\nYaya\n\nIt’s a rainbow"] },
+      "width": 5221,
+      "height": 5823,
+      "items": [
+        {
+          "id": "https://storiiies-images.cogapp.com/iiif/2/1715943626875yayaartwork.ptif/canvas/c0/annotation/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://storiiies-images.cogapp.com/iiif/2/1715943626875yayaartwork.ptif/canvas/c0/annotation/1/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://storiiies-images.cogapp.com/iiif/2/1715943626875yayaartwork.ptif/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 5221,
+                "height": 5823,
+                "service": [
+                  {
+                    "id": "https://storiiies-images.cogapp.com/iiif/2/1715943626875yayaartwork.ptif",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "https://storiiies-images.cogapp.com/iiif/2/1715943626875yayaartwork.ptif/canvas/c0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://jqz7t23pp9.execute-api.us-east-1.amazonaws.com/dev/annotation/d4485c40143c11efb7a569eb01932406/annotations.json",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "2170dce0143d11ef976c69c5d3ce0001",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": [
+                {
+                  "type": "TextualBody",
+                  "format": "text/plain",
+                  "value": "Here’s a bit really really for the rainbow. It’s a round and round and round and round and round. <br><br><em>[Action: she makes gestures with her finger]</em>"
+                },
+                {
+                  "id": "/temp-audio/1.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                  "duration": 9
+                }
+              ],
+              "target": "https://storiiies-images.cogapp.com/iiif/2/1715943626875yayaartwork.ptif/canvas/c0#xywh=-343.6108005234572,505.1697538203482,3711.8456687316248,2166.7899091220856"
+            },
+            {
+              "id": "39396cc0143d11ef976c69c5d3ce0001",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": [
+                {
+                  "type": "TextualBody",
+                  "format": "text/plain",
+                  "value": "<em>Imperceptible toddler babble.</em> <br><br> She gestures with her hand to explain what it is."
+                },
+                {
+                  "id": "/temp-audio/2.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                  "duration": 10
+                }
+              ],
+              "target": "https://storiiies-images.cogapp.com/iiif/2/1715943626875yayaartwork.ptif/canvas/c0#xywh=2025.4623932217207,585.9381361510893,3093.204723943021,1805.6582576017383"
+            },
+            {
+              "id": "4beeb370143d11efba9923be2edd2149",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": [
+                {
+                  "type": "TextualBody",
+                  "format": "text/plain",
+                  "value": "This bit's a one, two, three, four, five. <br><br><em>[Action: she makes gestures with her finger]</em>"
+                },
+                {
+                  "id": "/temp-audio/3.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                  "duration": 7
+                }
+              ],
+              "target": "https://storiiies-images.cogapp.com/iiif/2/1715943626875yayaartwork.ptif/canvas/c0#xywh=1472.6206602993134,1509.7734821053637,3093.204723943021,1805.6582576017383"
+            },
+            {
+              "id": "6b1fa010143d11efba9923be2edd2149",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": [
+                {
+                  "type": "TextualBody",
+                  "format": "text/plain",
+                  "value": "This is goes like this, like this, like this, like this, like this, like this. That’s a rainbow. That’s at nursery with everybody."
+                },
+                {
+                  "id": "/temp-audio/4.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                  "duration": 34
+                }
+              ],
+              "target": "https://storiiies-images.cogapp.com/iiif/2/1715943626875yayaartwork.ptif/canvas/c0#xywh=665.1995161673455,2362.818576551168,3711.8456687316248,2166.7899091220856"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

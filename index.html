@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="module">
+      import StoriiiesViewer from "./storiiies-viewer.js";
+      document.addEventListener("DOMContentLoaded", () => {
+        const container = document.querySelector("#viewer");
+
+        window.storiiiesViewerInstance = new StoriiiesViewer({
+          container,
+          manifestUrl: "manifest.json",
+        });
+      });
+    </script>
+    <title>Demo</title>
+  </head>
+  <body>
+    <div id="viewer"></div>
+  </body>
+</html>
